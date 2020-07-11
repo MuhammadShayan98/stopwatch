@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #000000;
+        text-align: center;
+    }
+    h1{
+        color: black;
+        background-color: white;
+        display: inline-block;
+        width: 6%;
+        
+    }
+    button{
+        display: inline-block;
+        padding: 10px 20px 10px 20px;
+    }
+    img{
+        width: 30%;
+        height: 10%;
+    }
+</style>
+
+<body>
+    <script src="prac.js"></script>
+    <div>
+        <img src="stop.jpg">
+    </div>
+    <h1 >Stop Watch</h1>
+    <div>
+        <h1 id="min">0</h1>
+        <h1 >:</h1>
+        <h1 id="sec">00</h1>
+        <h1 >:</h1>
+        <h1 id="millisec">00</h1>
+    </div>
+    <div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop">Stop</button>
+        <button onclick="reset">Reset</button>
+    </div>
+</body>
+</html>
